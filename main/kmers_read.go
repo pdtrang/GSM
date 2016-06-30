@@ -43,13 +43,6 @@ func CountFreq(readFile string, freq map[int]int, K int) {
    runtime.GOMAXPROCS(numCores)
    var wg sync.WaitGroup
 
-   // Here is a map of kmers that need to be counted.  Only these kmers are counted.
-/*   freq := make(map[int]int)
-   freq[158] = 0
-   freq[180] = 0
-   freq[39] = 0
-   freq[59] = 0*/
-
    // Start a new counter that counts only kmers in freq.
    c := kmers.NewKmerCounter(K, freq)
 
