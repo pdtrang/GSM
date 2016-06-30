@@ -5,7 +5,8 @@ GSM is a tool that allows user to profile microbial genomes in the community usi
 ## Installation
 
 1. Install Go https://golang.org/dl/
-2. Python 2.7.x
+2. Install kmers package from github: http://github.com/vtphan/kmers
+3. Python 2.7.x
 
 ## Reference Genomes
 
