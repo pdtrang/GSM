@@ -1,6 +1,4 @@
 # GSM
-An alignment-free method for profiling microbial communities
-
 GSM is a tool that allows user to profile microbial genomes in the community using Genomic Specific Markers.
 
 
